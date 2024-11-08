@@ -25,13 +25,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.37433862433862436,
-            "y": 0.5905292479108635,
+            "x": 0.26438848920863306,
+            "y": 0.35097493036211697,
             "uniqueID": 1720547287125,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 30
                 }
             ],
             "description": "Creates a new circle."
@@ -45,7 +45,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1720547287125
+                    "ioValue": 1731103985862
                 },
                 {
                     "name": "height",
@@ -87,15 +87,47 @@
                 }
             ],
             "description": "Generates Maslow gcode from the input geometry."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.22032374100719423,
+            "y": 0.6713091922005571,
+            "uniqueID": 1731103976903,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 20
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.41007194244604317,
+            "y": 0.3593314763231198,
+            "uniqueID": 1731103985862,
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": 1731103976903
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": 1720547287125
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
             "ap1ID": 1720547287125,
-            "ap2ID": 1720547306065
+            "ap2ID": 1731103985862
         },
         {
             "ap1Name": "geometry",
@@ -110,6 +142,20 @@
             "ap2Primary": false,
             "ap1ID": 1720547306065,
             "ap2ID": 1731102875103
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1731103976903,
+            "ap2ID": 1731103985862
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1731103985862,
+            "ap2ID": 1720547306065
         }
     ],
     "unitsKey": "MM",
