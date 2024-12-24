@@ -57,8 +57,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.6643952299829642,
-            "y": 0.7019498607242339,
+            "x": 0.746031746031746,
+            "y": 0.24512534818941506,
             "uniqueID": 1731102875103,
             "ioValues": [
                 {
@@ -119,6 +119,58 @@
                 }
             ],
             "description": "Subtracts shape two from shape one."
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.328042328042328,
+            "y": 0.8412256267409471,
+            "uniqueID": 1735060410365,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 50
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.46230158730158727,
+            "y": 0.8412256267409471,
+            "uniqueID": 1735060413208,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1735060410365
+                },
+                {
+                    "name": "height",
+                    "ioValue": 2
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Join",
+            "name": "Fusion",
+            "x": 0.6349206349206349,
+            "y": 0.6601671309192201,
+            "uniqueID": 1735060440068,
+            "ioValues": [
+                {
+                    "name": "Shape 1",
+                    "ioValue": 1735060413208
+                },
+                {
+                    "name": "Shape 2",
+                    "ioValue": 1720547306065
+                }
+            ],
+            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+            "unionType": "Fusion",
+            "unionIndex": 1
         }
     ],
     "allConnectors": [
@@ -145,6 +197,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "Shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1720547306065,
+            "ap2ID": 1735060440068
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": 1731103976903,
@@ -156,6 +215,20 @@
             "ap2Primary": true,
             "ap1ID": 1731103985862,
             "ap2ID": 1720547306065
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1735060410365,
+            "ap2ID": 1735060413208
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1735060413208,
+            "ap2ID": 1735060440068
         }
     ],
     "unitsKey": "MM",
