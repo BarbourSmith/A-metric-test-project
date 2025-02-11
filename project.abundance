@@ -516,7 +516,8 @@
             "y": 0.4818941504178273,
             "uniqueID": 1739312825194,
             "ioValues": [],
-            "description": "Defines a mathematical constant."
+            "description": "Defines a mathematical constant.",
+            "value": 2342
         }
     ],
     "allConnectors": [
