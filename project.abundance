@@ -97,7 +97,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 20
+                    "ioValue": 2342
                 }
             ],
             "description": "Creates a new circle."
@@ -604,6 +604,13 @@
             "ap2Primary": false,
             "ap1ID": 1738615824140,
             "ap2ID": 1738615821302
+        },
+        {
+            "ap1Name": "number",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1739312825194,
+            "ap2ID": 1731103976903
         }
     ],
     "unitsKey": "MM",
