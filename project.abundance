@@ -508,6 +508,15 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Constant",
+            "name": "Constant",
+            "x": 0.3392857142857143,
+            "y": 0.5041782729805014,
+            "uniqueID": 1739312825194,
+            "ioValues": [],
+            "description": "Defines a mathematical constant."
         }
     ],
     "allConnectors": [
