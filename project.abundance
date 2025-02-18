@@ -14,12 +14,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1720547275110,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1720547306065
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -57,8 +52,8 @@
         {
             "atomType": "Gcode",
             "name": "Gcode",
-            "x": 0.746031746031746,
-            "y": 0.24512534818941506,
+            "x": 0.7811704834605598,
+            "y": 0.2349869451697128,
             "uniqueID": 1731102875103,
             "ioValues": [
                 {
@@ -91,8 +86,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.44378306878306883,
-            "y": 0.5515320334261838,
+            "x": 0.46564885496183206,
+            "y": 0.5274151436031331,
             "uniqueID": 1731103976903,
             "ioValues": [
                 {
@@ -155,8 +150,8 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.6349206349206349,
-            "y": 0.6601671309192201,
+            "x": 0.6335877862595419,
+            "y": 0.6370757180156658,
             "uniqueID": 1735060440068,
             "ioValues": [
                 {
