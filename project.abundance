@@ -683,7 +683,7 @@
             "atomType": "Molecule",
             "name": "Test",
             "x": 0.5244708994708994,
-            "y": 0.6312849162011173,
+            "y": 0.611731843575419,
             "uniqueID": 1748626461997,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -856,6 +856,24 @@
                             }
                         ]
                     ]
+                },
+                {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 0.5601851851851851,
+                    "y": 0.5698324022346368,
+                    "uniqueID": 1748628325324,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1748626528503
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": 1748626539694
+                        }
+                    ],
+                    "description": "The space shared by two shapes."
                 }
             ],
             "allConnectors": [
@@ -889,6 +907,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 1748626528503,
+                    "ap2ID": 1748628325324
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "Input2",
                     "ap2Primary": false,
                     "ap1ID": 1748626539694,
@@ -900,6 +925,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1748626539694,
                     "ap2ID": 1748626573664
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 1748626539694,
+                    "ap2ID": 1748628325324
                 },
                 {
                     "ap1Name": "geometry",
