@@ -299,6 +299,26 @@
             "value": 2342
         },
         {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.19246031746031744,
+            "y": 0.9080779944289693,
+            "uniqueID": "486451eb-5d8e-4c5d-a80d-f773b5fa2d49",
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 7,
+                    "currentEquation": null
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 50,
+                    "currentEquation": "50"
+                }
+            ],
+            "description": "Creates a new regular polygon. Corners are on the diameter."
+        },
+        {
             "atomType": "Molecule",
             "name": "Molecule",
             "x": 0.6892252894033838,
@@ -1060,31 +1080,11 @@
             "compiledBom": []
         },
         {
-            "atomType": "RegularPolygon",
-            "name": "RegularPolygon",
-            "x": 0.22023809523809526,
-            "y": 0.9108635097493036,
-            "uniqueID": "486451eb-5d8e-4c5d-a80d-f773b5fa2d49",
-            "ioValues": [
-                {
-                    "name": "number of sides",
-                    "ioValue": 7,
-                    "currentEquation": "7"
-                },
-                {
-                    "name": "diameter",
-                    "ioValue": 5.7,
-                    "currentEquation": "5.7"
-                }
-            ],
-            "description": "Creates a new regular polygon. Corners are on the diameter."
-        },
-        {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.3353174603174603,
-            "y": 0.7270194986072424,
-            "uniqueID": "becb5e9f-e43a-4459-b186-60f80e716ced",
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.27380952380952384,
+            "y": 0.7465181058495821,
+            "uniqueID": "ce2545d8-9c65-46b2-ab05-d8c5b17ec1a4",
             "ioValues": [
                 {
                     "name": "geometry",
@@ -1092,22 +1092,54 @@
                     "currentEquation": null
                 },
                 {
-                    "name": "xDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
+                    "name": "height",
+                    "ioValue": 10,
                     "currentEquation": null
                 }
             ],
-            "description": "Moves a shape laterally in X, Y, Z."
+            "description": "Extrudes a 2D shape. Input can be negative."
+        },
+        {
+            "atomType": "Gcode",
+            "name": "Gcode",
+            "x": 0.36706349206349204,
+            "y": 0.7214484679665739,
+            "uniqueID": "9ed7ce90-3fc3-4404-90d9-cf784d2b4a89",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "ce2545d8-9c65-46b2-ab05-d8c5b17ec1a4",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Tool Size",
+                    "ioValue": 6.35,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Passes",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Speed",
+                    "ioValue": 1500,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cut Through",
+                    "ioValue": 1.35,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "A-metric-test-project",
+                    "currentEquation": null
+                }
+            ],
+            "description": "Generates Maslow gcode from the input geometry. For single parts, generates one gcode file. For assemblies, extracts individual parts, sorts them based on the selected direction (Left, Right, Top, or Bottom) using bounding boxes, generates gcode for each part sequentially, and concatenates the results into one file.",
+            "partName": "A-metric-test-project",
+            "sortDirection": "Left"
         }
     ],
     "allConnectors": [
@@ -1178,6 +1210,12 @@
             "ap2ID": 1731103976903
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap1ID": "486451eb-5d8e-4c5d-a80d-f773b5fa2d49",
+            "ap2ID": "ce2545d8-9c65-46b2-ab05-d8c5b17ec1a4"
+        },
+        {
             "ap1Name": "geometry or number",
             "ap2Name": "Shape 2",
             "ap1ID": "1127a05c-5c1c-46db-affa-0e4ae5d507fd",
@@ -1192,8 +1230,8 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap1ID": "486451eb-5d8e-4c5d-a80d-f773b5fa2d49",
-            "ap2ID": "becb5e9f-e43a-4459-b186-60f80e716ced"
+            "ap1ID": "ce2545d8-9c65-46b2-ab05-d8c5b17ec1a4",
+            "ap2ID": "9ed7ce90-3fc3-4404-90d9-cf784d2b4a89"
         }
     ],
     "unitsKey": "MM",
