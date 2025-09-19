@@ -99,14 +99,14 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "2x6 in MM",
-                    "x": 0.3304867634500427,
-                    "y": 0.6991643454038997,
+                    "x": 0.30026455026455023,
+                    "y": 0.5459610027855153,
                     "uniqueID": "03d74bd9-693a-48c4-ae3b-3aecb45bb6b5",
                     "ioValues": [
                         {
                             "name": "Input (1)",
-                            "ioValue": 254,
-                            "currentEquation": "10*25.4"
+                            "ioValue": 279.4,
+                            "currentEquation": "11*25.4"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -161,7 +161,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 254,
+                                    "ioValue": 279.4,
                                     "currentEquation": null
                                 }
                             ],
