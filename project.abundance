@@ -50,7 +50,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "16f26ec1-ca3d-472b-b294-8adf1df0e8a9",
+                    "ioValue": "fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e",
                     "currentEquation": null
                 },
                 {
@@ -74,8 +74,8 @@
         {
             "atomType": "Molecule",
             "name": "A Test Molecule",
-            "x": 0.251984126984127,
-            "y": 0.21727019498607245,
+            "x": 0.25793650793650796,
+            "y": 0.2479108635097493,
             "uniqueID": "17ff2815-1952-4728-bf33-a9605d1bdbcd",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -105,8 +105,8 @@
                     "ioValues": [
                         {
                             "name": "Input (1)",
-                            "ioValue": 279.4,
-                            "currentEquation": "11*25.4"
+                            "ioValue": 254,
+                            "currentEquation": "10*25.4"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -161,7 +161,7 @@
                                 },
                                 {
                                     "name": "height",
-                                    "ioValue": 279.4,
+                                    "ioValue": 254,
                                     "currentEquation": null
                                 }
                             ],
@@ -336,9 +336,9 @@
         {
             "atomType": "Molecule",
             "name": "A Test Molecule",
-            "x": 0.24594363791631085,
-            "y": 0.6323119777158774,
-            "uniqueID": "16f26ec1-ca3d-472b-b294-8adf1df0e8a9",
+            "x": 0.2486772486772487,
+            "y": 0.6295264623955432,
+            "uniqueID": "fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
@@ -348,11 +348,11 @@
                     "name": "Output",
                     "x": 0.98,
                     "y": 0.5,
-                    "uniqueID": "2271302e-fbb6-4401-8b00-de373a620301",
+                    "uniqueID": "0e6ca2a5-80dd-46b8-b4bb-17305878610a",
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "49ea77c3-0d7a-4e32-9b0b-1455100d5495",
+                            "ioValue": "191cbe80-adec-4760-b154-cf71388e82cb",
                             "currentEquation": null
                         }
                     ],
@@ -361,9 +361,9 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "2x6 in MM",
-                    "x": 0.29035012809564475,
-                    "y": 0.6880222841225626,
-                    "uniqueID": "49ea77c3-0d7a-4e32-9b0b-1455100d5495",
+                    "x": 0.30026455026455023,
+                    "y": 0.5459610027855153,
+                    "uniqueID": "191cbe80-adec-4760-b154-cf71388e82cb",
                     "ioValues": [
                         {
                             "name": "Input (1)",
@@ -379,11 +379,11 @@
                             "name": "Output",
                             "x": 0.9784431137724551,
                             "y": 0.4640371229698376,
-                            "uniqueID": "cf63cb59-8a3f-447d-92a7-b07043923af5",
+                            "uniqueID": "716ccf14-3337-4512-bc66-56e2d9c2c896",
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": "5200d791-1da5-492f-8e83-b333f90e21e5",
+                                    "ioValue": "ab77f107-c770-4247-b6d3-390caed78b95",
                                     "currentEquation": null
                                 }
                             ],
@@ -394,7 +394,7 @@
                             "name": "Rectangle",
                             "x": 0.10178117048346057,
                             "y": 0.26631853785900783,
-                            "uniqueID": "9f95646b-73a2-4910-941c-19cf31ae2f63",
+                            "uniqueID": "575b095a-1a5f-42e0-864b-75d27aff5905",
                             "ioValues": [
                                 {
                                     "name": "x length",
@@ -414,11 +414,11 @@
                             "name": "Extrude",
                             "x": 0.37404580152671757,
                             "y": 0.30548302872062666,
-                            "uniqueID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8",
+                            "uniqueID": "c287b3dc-5c39-4174-8893-a5d62b8653d9",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "9f95646b-73a2-4910-941c-19cf31ae2f63",
+                                    "ioValue": "575b095a-1a5f-42e0-864b-75d27aff5905",
                                     "currentEquation": null
                                 },
                                 {
@@ -434,7 +434,7 @@
                             "name": "Input (1)",
                             "x": 0.029699999999999997,
                             "y": 0.4830287206266318,
-                            "uniqueID": "cb085d67-c774-483e-a29a-659fe0101d13",
+                            "uniqueID": "c75b8d58-1d5a-49fc-93a6-9740628af14f",
                             "ioValues": [],
                             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
                             "type": "number"
@@ -444,11 +444,11 @@
                             "name": "Rotate",
                             "x": 0.5215568862275449,
                             "y": 0.3619489559164733,
-                            "uniqueID": "3e9e390b-623e-4112-808b-a4003ed98510",
+                            "uniqueID": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "0dd43d50-b91d-41e0-881f-dccf2397f5b8",
+                                    "ioValue": "c287b3dc-5c39-4174-8893-a5d62b8653d9",
                                     "currentEquation": null
                                 },
                                 {
@@ -474,11 +474,11 @@
                             "name": "Add BOM Tag",
                             "x": 0.6952095808383233,
                             "y": 0.5777262180974478,
-                            "uniqueID": "5200d791-1da5-492f-8e83-b333f90e21e5",
+                            "uniqueID": "ab77f107-c770-4247-b6d3-390caed78b95",
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": "3e9e390b-623e-4112-808b-a4003ed98510",
+                                    "ioValue": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55",
                                     "currentEquation": null
                                 },
                                 {
@@ -515,32 +515,32 @@
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap1ID": "9f95646b-73a2-4910-941c-19cf31ae2f63",
-                            "ap2ID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8"
+                            "ap1ID": "575b095a-1a5f-42e0-864b-75d27aff5905",
+                            "ap2ID": "c287b3dc-5c39-4174-8893-a5d62b8653d9"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap1ID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8",
-                            "ap2ID": "3e9e390b-623e-4112-808b-a4003ed98510"
+                            "ap1ID": "c287b3dc-5c39-4174-8893-a5d62b8653d9",
+                            "ap2ID": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55"
                         },
                         {
                             "ap1Name": "number or geometry",
                             "ap2Name": "height",
-                            "ap1ID": "cb085d67-c774-483e-a29a-659fe0101d13",
-                            "ap2ID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8"
+                            "ap1ID": "c75b8d58-1d5a-49fc-93a6-9740628af14f",
+                            "ap2ID": "c287b3dc-5c39-4174-8893-a5d62b8653d9"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
-                            "ap1ID": "3e9e390b-623e-4112-808b-a4003ed98510",
-                            "ap2ID": "5200d791-1da5-492f-8e83-b333f90e21e5"
+                            "ap1ID": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55",
+                            "ap2ID": "ab77f107-c770-4247-b6d3-390caed78b95"
                         },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
-                            "ap1ID": "5200d791-1da5-492f-8e83-b333f90e21e5",
-                            "ap2ID": "cf63cb59-8a3f-447d-92a7-b07043923af5"
+                            "ap1ID": "ab77f107-c770-4247-b6d3-390caed78b95",
+                            "ap2ID": "716ccf14-3337-4512-bc66-56e2d9c2c896"
                         }
                     ],
                     "parentRepo": {
@@ -581,8 +581,8 @@
                 {
                     "ap1Name": "geometry or number",
                     "ap2Name": "number or geometry",
-                    "ap1ID": "49ea77c3-0d7a-4e32-9b0b-1455100d5495",
-                    "ap2ID": "2271302e-fbb6-4401-8b00-de373a620301"
+                    "ap1ID": "191cbe80-adec-4760-b154-cf71388e82cb",
+                    "ap2ID": "0e6ca2a5-80dd-46b8-b4bb-17305878610a"
                 }
             ],
             "fileTypeVersion": 1,
@@ -618,7 +618,7 @@
         {
             "ap1Name": "geometry or number",
             "ap2Name": "geometry",
-            "ap1ID": "16f26ec1-ca3d-472b-b294-8adf1df0e8a9",
+            "ap1ID": "fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e",
             "ap2ID": "64ea2c8d-bf4c-473a-acbc-68ee4d02c248"
         }
     ],
