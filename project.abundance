@@ -76,6 +76,36 @@
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.408068783068783,
+            "y": 0.8551532033426184,
+            "uniqueID": "89477b96-df08-449c-a343-1932329ffae1",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "d438c782-33b9-47bf-9cdf-0b670eccd6ad",
+                    "currentEquation": null
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 600,
+                    "currentEquation": null
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0,
+                    "currentEquation": null
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
             "atomType": "Molecule",
             "name": "A Test Molecule",
             "x": 0.2605820105820106,
@@ -600,36 +630,6 @@
             ]
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.408068783068783,
-            "y": 0.8551532033426184,
-            "uniqueID": "89477b96-df08-449c-a343-1932329ffae1",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "d438c782-33b9-47bf-9cdf-0b670eccd6ad",
-                    "currentEquation": null
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 600,
-                    "currentEquation": "600"
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 0,
-                    "currentEquation": null
-                }
-            ],
-            "description": "Moves a shape laterally in X, Y, Z."
-        },
-        {
             "atomType": "Molecule",
             "name": "A Test Molecule",
             "x": 0.23082010582010581,
@@ -906,6 +906,12 @@
             "ap2ID": "fcbee009-7b54-42c7-97c5-192fa5becb62"
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 3",
+            "ap1ID": "89477b96-df08-449c-a343-1932329ffae1",
+            "ap2ID": "fcbee009-7b54-42c7-97c5-192fa5becb62"
+        },
+        {
             "ap1Name": "geometry or number",
             "ap2Name": "Shape 1",
             "ap1ID": "17ff2815-1952-4728-bf33-a9605d1bdbcd",
@@ -916,12 +922,6 @@
             "ap2Name": "geometry",
             "ap1ID": "fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e",
             "ap2ID": "64ea2c8d-bf4c-473a-acbc-68ee4d02c248"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Shape 3",
-            "ap1ID": "89477b96-df08-449c-a343-1932329ffae1",
-            "ap2ID": "fcbee009-7b54-42c7-97c5-192fa5becb62"
         },
         {
             "ap1Name": "geometry or number",
