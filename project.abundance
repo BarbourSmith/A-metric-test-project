@@ -1,1 +1,961 @@
-{"atomType":"Molecule","name":"A-metric-test-project","x":0,"y":0,"uniqueID":1720547265332,"ioValues":[],"topLevel":true,"allAtoms":[{"atomType":"Output","name":"Output","x":0.98,"y":0.5,"uniqueID":1720547275110,"ioValues":[]},{"atomType":"Assembly","name":"Assembly","x":0.5125661375661376,"y":0.39275766016713093,"uniqueID":"fcbee009-7b54-42c7-97c5-192fa5becb62","ioValues":[{"name":"Shape 1","ioValue":{"geometry":"rotate-f425c1cc238e8747d3c59c8f7c261bbdbc42c259537184cc056d8619033cd0b7","dimension":"3D","plane":{"origin":[0,0,0],"xDir":[1,0,0],"normal":[0,0,1]},"color":"#aad7f2","tags":[],"bom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}},{"name":"Shape 2","ioValue":{"geometry":"move-3b24ffe5eec7e4def5a12c2c86b7be05d65745b05321ed38ba41640d5140c02c","dimension":"3D","plane":{"origin":[0,0,0],"xDir":[1,0,0],"normal":[0,0,1]},"color":"#aad7f2","tags":[],"bom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}},{"name":"Shape 3","ioValue":{"geometry":"move-13b4b6811b9159aaf532667a309d596752a11a2a9500fdc73440d99f03addd18","dimension":"3D","plane":{"origin":[0,0,0],"xDir":[1,0,0],"normal":[0,0,1]},"color":"#aad7f2","tags":[],"bom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}}]},{"atomType":"Move","name":"Move","x":0.38257899231426135,"y":0.5403899721448467,"uniqueID":"64ea2c8d-bf4c-473a-acbc-68ee4d02c248","ioValues":[{"name":"xDist","ioValue":300},{"name":"yDist","ioValue":0},{"name":"zDist","ioValue":0}]},{"atomType":"Move","name":"Move","x":0.408068783068783,"y":0.8551532033426184,"uniqueID":"89477b96-df08-449c-a343-1932329ffae1","ioValues":[{"name":"xDist","ioValue":600},{"name":"yDist","ioValue":0},{"name":"zDist","ioValue":0}]},{"atomType":"Circle","name":"Circle","x":0.5178571428571428,"y":0.7242339832869081,"uniqueID":"cacb3ae8-5670-43f3-8a76-39be00d493dc","ioValues":[{"name":"diameter","ioValue":23}]},{"atomType":"Extrude","name":"Extrude","x":0.6178571428571428,"y":0.7242339832869081,"uniqueID":"3fe79a2d-b8fc-4df4-b699-2cdb664a2ee6","ioValues":[{"name":"height","ioValue":100}]},{"atomType":"Move","name":"Move","x":0.7178571428571427,"y":0.7242339832869081,"uniqueID":"89d5538d-9277-425e-b96f-e6592a125b69","ioValues":[{"name":"xDist","ioValue":20},{"name":"yDist","ioValue":101},{"name":"zDist","ioValue":0}]},{"atomType":"Rotate","name":"Rotate","x":0.8194444444444444,"y":0.6323119777158774,"uniqueID":"9b3e583e-a1c1-4825-b899-a27fa37fcf0f","ioValues":[{"name":"x-axis degrees","ioValue":0},{"name":"y-axis degrees","ioValue":45},{"name":"z-axis degrees","ioValue":0}]},{"atomType":"Molecule","name":"A Test Molecule","x":0.2605820105820106,"y":0.2479108635097493,"uniqueID":"17ff2815-1952-4728-bf33-a9605d1bdbcd","ioValues":[],"topLevel":false,"allAtoms":[{"atomType":"Output","name":"Output","x":0.98,"y":0.5,"uniqueID":"c3b6ebae-7096-43e3-a5c3-10bc3754458e","ioValues":[]},{"atomType":"GitHubMolecule","name":"2x6 in MM","x":0.30026455026455023,"y":0.5459610027855153,"uniqueID":"03d74bd9-693a-48c4-ae3b-3aecb45bb6b5","ioValues":[{"name":"Input (1)","ioValue":254,"currentEquation":"10*25.4"}],"topLevel":false,"allAtoms":[{"atomType":"Output","name":"Output","x":0.9784431137724551,"y":0.4640371229698376,"uniqueID":"cf63cb59-8a3f-447d-92a7-b07043923af5","ioValues":[]},{"atomType":"Rectangle","name":"Rectangle","x":0.10178117048346057,"y":0.26631853785900783,"uniqueID":"9f95646b-73a2-4910-941c-19cf31ae2f63","ioValues":[{"name":"x length","ioValue":38.099999999999994,"currentEquation":"1.5*25.4"},{"name":"y length","ioValue":139.7,"currentEquation":"5.5*25.4"}]},{"atomType":"Extrude","name":"Extrude","x":0.37404580152671757,"y":0.30548302872062666,"uniqueID":"0dd43d50-b91d-41e0-881f-dccf2397f5b8","ioValues":[{"name":"height","ioValue":254}]},{"atomType":"Input","name":"Input (1)","x":0.029699999999999997,"y":0.4830287206266318,"uniqueID":"cb085d67-c774-483e-a29a-659fe0101d13","ioValues":[],"type":"number"},{"atomType":"Rotate","name":"Rotate","x":0.5215568862275449,"y":0.3619489559164733,"uniqueID":"3e9e390b-623e-4112-808b-a4003ed98510","ioValues":[{"name":"x-axis degrees","ioValue":90},{"name":"y-axis degrees","ioValue":90},{"name":"z-axis degrees","ioValue":0}]},{"atomType":"Add-BOM-Tag","name":"Add BOM Tag","x":0.6952095808383233,"y":0.5777262180974478,"uniqueID":"5200d791-1da5-492f-8e83-b333f90e21e5","ioValues":[{"name":"Item Name","ioValue":"New Item"},{"name":"Number Needed","ioValue":1},{"name":"Cost (USD)","ioValue":0},{"name":"Source Link","ioValue":""}],"BOMitem":{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}}],"allConnectors":[{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"9f95646b-73a2-4910-941c-19cf31ae2f63","ap2ID":"0dd43d50-b91d-41e0-881f-dccf2397f5b8"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"0dd43d50-b91d-41e0-881f-dccf2397f5b8","ap2ID":"3e9e390b-623e-4112-808b-a4003ed98510"},{"ap1Name":"number or geometry","ap2Name":"height","ap1ID":"cb085d67-c774-483e-a29a-659fe0101d13","ap2ID":"0dd43d50-b91d-41e0-881f-dccf2397f5b8"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"3e9e390b-623e-4112-808b-a4003ed98510","ap2ID":"5200d791-1da5-492f-8e83-b333f90e21e5"},{"ap1Name":"geometry","ap2Name":"number or geometry","ap1ID":"5200d791-1da5-492f-8e83-b333f90e21e5","ap2ID":"cf63cb59-8a3f-447d-92a7-b07043923af5"}],"parentRepo":{"lastFoundGit":"2025-09-19T15:47:14.715Z","privateRepo":false,"repoName":"2x6-in-MM","dateCreated":"2025-09-14T17:15:39Z","readMe":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/README.md?sanitize=true","yyyy":2025,"topMoleculeID":"99706c20-dcce-4419-a870-8b362b255f60","githubMoleculesUsed":[],"html_url":"https://github.com/BarbourSmith/2x6-in-MM","topics":[],"parentRepo":null,"forks":0,"dateModified":"739508","ranking":0,"searchField":"2x6-in-mm barboursmith a 2x6 board modeled in mm ","owner":"BarbourSmith","description":"A 2x6 board modeled in mm","contentURL":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.abundance?sanitize=true","svgURL":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.svg?sanitize=true","isLocal":false},"unitsKey":"MM","fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}],"allConnectors":[{"ap1Name":"geometry or number","ap2Name":"number or geometry","ap1ID":"03d74bd9-693a-48c4-ae3b-3aecb45bb6b5","ap2ID":"c3b6ebae-7096-43e3-a5c3-10bc3754458e"}],"fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]},{"atomType":"Molecule","name":"A Test Molecule","x":0.22420634920634921,"y":0.520891364902507,"uniqueID":"fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e","ioValues":[],"topLevel":false,"allAtoms":[{"atomType":"Output","name":"Output","x":0.98,"y":0.5,"uniqueID":"0e6ca2a5-80dd-46b8-b4bb-17305878610a","ioValues":[]},{"atomType":"GitHubMolecule","name":"2x6 in MM","x":0.30026455026455023,"y":0.5459610027855153,"uniqueID":"191cbe80-adec-4760-b154-cf71388e82cb","ioValues":[{"name":"Input (1)","ioValue":762,"currentEquation":"30*25.4"}],"topLevel":false,"allAtoms":[{"atomType":"Output","name":"Output","x":0.9784431137724551,"y":0.4640371229698376,"uniqueID":"716ccf14-3337-4512-bc66-56e2d9c2c896","ioValues":[]},{"atomType":"Rectangle","name":"Rectangle","x":0.10178117048346057,"y":0.26631853785900783,"uniqueID":"575b095a-1a5f-42e0-864b-75d27aff5905","ioValues":[{"name":"x length","ioValue":38.099999999999994,"currentEquation":"1.5*25.4"},{"name":"y length","ioValue":139.7,"currentEquation":"5.5*25.4"}]},{"atomType":"Extrude","name":"Extrude","x":0.37404580152671757,"y":0.30548302872062666,"uniqueID":"c287b3dc-5c39-4174-8893-a5d62b8653d9","ioValues":[{"name":"height","ioValue":762}]},{"atomType":"Input","name":"Input (1)","x":0.029699999999999997,"y":0.4830287206266318,"uniqueID":"c75b8d58-1d5a-49fc-93a6-9740628af14f","ioValues":[],"type":"number"},{"atomType":"Rotate","name":"Rotate","x":0.5215568862275449,"y":0.3619489559164733,"uniqueID":"a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55","ioValues":[{"name":"x-axis degrees","ioValue":90},{"name":"y-axis degrees","ioValue":90},{"name":"z-axis degrees","ioValue":0}]},{"atomType":"Add-BOM-Tag","name":"Add BOM Tag","x":0.6952095808383233,"y":0.5777262180974478,"uniqueID":"ab77f107-c770-4247-b6d3-390caed78b95","ioValues":[{"name":"Item Name","ioValue":"New Item"},{"name":"Number Needed","ioValue":1},{"name":"Cost (USD)","ioValue":0},{"name":"Source Link","ioValue":""}],"BOMitem":{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}}],"allConnectors":[{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"575b095a-1a5f-42e0-864b-75d27aff5905","ap2ID":"c287b3dc-5c39-4174-8893-a5d62b8653d9"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"c287b3dc-5c39-4174-8893-a5d62b8653d9","ap2ID":"a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55"},{"ap1Name":"number or geometry","ap2Name":"height","ap1ID":"c75b8d58-1d5a-49fc-93a6-9740628af14f","ap2ID":"c287b3dc-5c39-4174-8893-a5d62b8653d9"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55","ap2ID":"ab77f107-c770-4247-b6d3-390caed78b95"},{"ap1Name":"geometry","ap2Name":"number or geometry","ap1ID":"ab77f107-c770-4247-b6d3-390caed78b95","ap2ID":"716ccf14-3337-4512-bc66-56e2d9c2c896"}],"parentRepo":{"lastFoundGit":"2025-09-19T15:47:14.715Z","privateRepo":false,"repoName":"2x6-in-MM","dateCreated":"2025-09-14T17:15:39Z","readMe":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/README.md?sanitize=true","yyyy":2025,"topMoleculeID":"99706c20-dcce-4419-a870-8b362b255f60","githubMoleculesUsed":[],"html_url":"https://github.com/BarbourSmith/2x6-in-MM","topics":[],"parentRepo":null,"forks":0,"dateModified":"739508","ranking":0,"searchField":"2x6-in-mm barboursmith a 2x6 board modeled in mm ","owner":"BarbourSmith","description":"A 2x6 board modeled in mm","contentURL":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.abundance?sanitize=true","svgURL":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.svg?sanitize=true","isLocal":false},"unitsKey":"MM","fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}],"allConnectors":[{"ap1Name":"geometry or number","ap2Name":"number or geometry","ap1ID":"191cbe80-adec-4760-b154-cf71388e82cb","ap2ID":"0e6ca2a5-80dd-46b8-b4bb-17305878610a"}],"fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]},{"atomType":"Molecule","name":"A Test Molecule","x":0.22883597883597884,"y":0.8746518105849581,"uniqueID":"d438c782-33b9-47bf-9cdf-0b670eccd6ad","ioValues":[],"topLevel":false,"allAtoms":[{"atomType":"Output","name":"Output","x":0.98,"y":0.5,"uniqueID":"5a4e861a-8d1b-483a-b2c4-10c3d3c7b317","ioValues":[]},{"atomType":"GitHubMolecule","name":"2x6 in MM","x":0.3029100529100529,"y":0.5571030640668524,"uniqueID":"b2e93d31-4994-488c-aa15-788b267b5324","ioValues":[{"name":"Input (1)","ioValue":2286,"currentEquation":"90*25.4"}],"topLevel":false,"allAtoms":[{"atomType":"Output","name":"Output","x":0.9784431137724551,"y":0.4640371229698376,"uniqueID":"8146df5e-d403-4ada-a07d-fc343409d980","ioValues":[]},{"atomType":"Rectangle","name":"Rectangle","x":0.10178117048346057,"y":0.26631853785900783,"uniqueID":"a6c5fff4-1961-41f9-9849-fdcb82b48c87","ioValues":[{"name":"x length","ioValue":38.099999999999994,"currentEquation":"1.5*25.4"},{"name":"y length","ioValue":139.7,"currentEquation":"5.5*25.4"}]},{"atomType":"Extrude","name":"Extrude","x":0.37404580152671757,"y":0.30548302872062666,"uniqueID":"db87a2ef-4a83-4f81-846f-8a972d854eb7","ioValues":[{"name":"height","ioValue":2286}]},{"atomType":"Input","name":"Input (1)","x":0.029699999999999997,"y":0.4830287206266318,"uniqueID":"1acb3b09-63e2-4360-9851-efb3065d7043","ioValues":[],"type":"number"},{"atomType":"Rotate","name":"Rotate","x":0.5215568862275449,"y":0.3619489559164733,"uniqueID":"01252a67-4ded-49c4-b887-561eb3f4753e","ioValues":[{"name":"x-axis degrees","ioValue":90},{"name":"y-axis degrees","ioValue":90},{"name":"z-axis degrees","ioValue":0}]},{"atomType":"Add-BOM-Tag","name":"Add BOM Tag","x":0.6952095808383233,"y":0.5777262180974478,"uniqueID":"578311f4-c278-4eff-9594-37fdb8a40b5b","ioValues":[{"name":"Item Name","ioValue":"New Item"},{"name":"Number Needed","ioValue":1},{"name":"Cost (USD)","ioValue":0},{"name":"Source Link","ioValue":""}],"BOMitem":{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}}],"allConnectors":[{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"a6c5fff4-1961-41f9-9849-fdcb82b48c87","ap2ID":"db87a2ef-4a83-4f81-846f-8a972d854eb7"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"db87a2ef-4a83-4f81-846f-8a972d854eb7","ap2ID":"01252a67-4ded-49c4-b887-561eb3f4753e"},{"ap1Name":"number or geometry","ap2Name":"height","ap1ID":"1acb3b09-63e2-4360-9851-efb3065d7043","ap2ID":"db87a2ef-4a83-4f81-846f-8a972d854eb7"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"01252a67-4ded-49c4-b887-561eb3f4753e","ap2ID":"578311f4-c278-4eff-9594-37fdb8a40b5b"},{"ap1Name":"geometry","ap2Name":"number or geometry","ap1ID":"578311f4-c278-4eff-9594-37fdb8a40b5b","ap2ID":"8146df5e-d403-4ada-a07d-fc343409d980"}],"parentRepo":{"lastFoundGit":"2025-09-19T15:47:14.715Z","privateRepo":false,"repoName":"2x6-in-MM","dateCreated":"2025-09-14T17:15:39Z","readMe":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/README.md?sanitize=true","yyyy":2025,"topMoleculeID":"99706c20-dcce-4419-a870-8b362b255f60","githubMoleculesUsed":[],"html_url":"https://github.com/BarbourSmith/2x6-in-MM","topics":[],"parentRepo":null,"forks":0,"dateModified":"739508","ranking":0,"searchField":"2x6-in-mm barboursmith a 2x6 board modeled in mm ","owner":"BarbourSmith","description":"A 2x6 board modeled in mm","contentURL":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.abundance?sanitize=true","svgURL":"https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.svg?sanitize=true","isLocal":false},"unitsKey":"MM","fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}],"allConnectors":[{"ap1Name":"geometry or number","ap2Name":"number or geometry","ap1ID":"b2e93d31-4994-488c-aa15-788b267b5324","ap2ID":"5a4e861a-8d1b-483a-b2c4-10c3d3c7b317"}],"fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":1,"costUSD":0,"source":"www.example.com"}]}],"allConnectors":[{"ap1Name":"geometry","ap2Name":"number or geometry","ap1ID":"fcbee009-7b54-42c7-97c5-192fa5becb62","ap2ID":1720547275110},{"ap1Name":"geometry","ap2Name":"Shape 2","ap1ID":"64ea2c8d-bf4c-473a-acbc-68ee4d02c248","ap2ID":"fcbee009-7b54-42c7-97c5-192fa5becb62"},{"ap1Name":"geometry","ap2Name":"Shape 3","ap1ID":"89477b96-df08-449c-a343-1932329ffae1","ap2ID":"fcbee009-7b54-42c7-97c5-192fa5becb62"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"cacb3ae8-5670-43f3-8a76-39be00d493dc","ap2ID":"3fe79a2d-b8fc-4df4-b699-2cdb664a2ee6"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"3fe79a2d-b8fc-4df4-b699-2cdb664a2ee6","ap2ID":"89d5538d-9277-425e-b96f-e6592a125b69"},{"ap1Name":"geometry","ap2Name":"geometry","ap1ID":"89d5538d-9277-425e-b96f-e6592a125b69","ap2ID":"9b3e583e-a1c1-4825-b899-a27fa37fcf0f"},{"ap1Name":"geometry or number","ap2Name":"Shape 1","ap1ID":"17ff2815-1952-4728-bf33-a9605d1bdbcd","ap2ID":"fcbee009-7b54-42c7-97c5-192fa5becb62"},{"ap1Name":"geometry or number","ap2Name":"geometry","ap1ID":"fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e","ap2ID":"64ea2c8d-bf4c-473a-acbc-68ee4d02c248"},{"ap1Name":"geometry or number","ap2Name":"geometry","ap1ID":"d438c782-33b9-47bf-9cdf-0b670eccd6ad","ap2ID":"89477b96-df08-449c-a343-1932329ffae1"}],"unitsKey":"MM","fileTypeVersion":1,"compiledBom":[{"BOMitemName":"name","numberNeeded":3,"costUSD":0,"source":"www.example.com"}],"filetypeVersion":1}
+{
+  "atomType": "Molecule",
+  "name": "A-metric-test-project",
+  "x": 0,
+  "y": 0,
+  "uniqueID": 1720547265332,
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": 1720547275110,
+      "ioValues": []
+    },
+    {
+      "atomType": "Assembly",
+      "name": "Assembly",
+      "x": 0.5211640211640212,
+      "y": 0.30362116991643456,
+      "uniqueID": "fcbee009-7b54-42c7-97c5-192fa5becb62",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": "rotate-f425c1cc238e8747d3c59c8f7c261bbdbc42c259537184cc056d8619033cd0b7",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [
+              {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": "move-3b24ffe5eec7e4def5a12c2c86b7be05d65745b05321ed38ba41640d5140c02c",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [
+              {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              }
+            ]
+          }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "move-13b4b6811b9159aaf532667a309d596752a11a2a9500fdc73440d99f03addd18",
+            "dimension": "3D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [
+              {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.38257899231426135,
+      "y": 0.5403899721448467,
+      "uniqueID": "64ea2c8d-bf4c-473a-acbc-68ee4d02c248",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 300
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.408068783068783,
+      "y": 0.8551532033426184,
+      "uniqueID": "89477b96-df08-449c-a343-1932329ffae1",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 600
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.5178571428571428,
+      "y": 0.7242339832869081,
+      "uniqueID": "cacb3ae8-5670-43f3-8a76-39be00d493dc",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 23
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "name": "Extrude",
+      "x": 0.6178571428571428,
+      "y": 0.7242339832869081,
+      "uniqueID": "3fe79a2d-b8fc-4df4-b699-2cdb664a2ee6",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 100
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.7178571428571427,
+      "y": 0.7242339832869081,
+      "uniqueID": "89d5538d-9277-425e-b96f-e6592a125b69",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 20
+        },
+        {
+          "name": "yDist",
+          "ioValue": 101
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.8194444444444444,
+      "y": 0.6323119777158774,
+      "uniqueID": "9b3e583e-a1c1-4825-b899-a27fa37fcf0f",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 45
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "name": "A Test Molecule",
+      "x": 0.2605820105820106,
+      "y": 0.2479108635097493,
+      "uniqueID": "17ff2815-1952-4728-bf33-a9605d1bdbcd",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "c3b6ebae-7096-43e3-a5c3-10bc3754458e",
+          "ioValues": []
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "name": "2x6 in MM",
+          "x": 0.30026455026455023,
+          "y": 0.5459610027855153,
+          "uniqueID": "03d74bd9-693a-48c4-ae3b-3aecb45bb6b5",
+          "ioValues": [
+            {
+              "name": "Input (1)",
+              "ioValue": 254,
+              "currentEquation": "10*25.4"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.9784431137724551,
+              "y": 0.4640371229698376,
+              "uniqueID": "cf63cb59-8a3f-447d-92a7-b07043923af5",
+              "ioValues": []
+            },
+            {
+              "atomType": "Rectangle",
+              "name": "Rectangle",
+              "x": 0.10178117048346057,
+              "y": 0.26631853785900783,
+              "uniqueID": "9f95646b-73a2-4910-941c-19cf31ae2f63",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 38.099999999999994,
+                  "currentEquation": "1.5*25.4"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 139.7,
+                  "currentEquation": "5.5*25.4"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "name": "Extrude",
+              "x": 0.37404580152671757,
+              "y": 0.30548302872062666,
+              "uniqueID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 254
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "name": "Input (1)",
+              "x": 0.029699999999999997,
+              "y": 0.4830287206266318,
+              "uniqueID": "cb085d67-c774-483e-a29a-659fe0101d13",
+              "ioValues": [],
+              "type": "number"
+            },
+            {
+              "atomType": "Rotate",
+              "name": "Rotate",
+              "x": 0.5215568862275449,
+              "y": 0.3619489559164733,
+              "uniqueID": "3e9e390b-623e-4112-808b-a4003ed98510",
+              "ioValues": [
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "name": "Add BOM Tag",
+              "x": 0.6952095808383233,
+              "y": 0.5777262180974478,
+              "uniqueID": "5200d791-1da5-492f-8e83-b333f90e21e5",
+              "ioValues": [
+                {
+                  "name": "Item Name",
+                  "ioValue": "New Item"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": ""
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              }
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "9f95646b-73a2-4910-941c-19cf31ae2f63",
+              "ap2ID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8",
+              "ap2ID": "3e9e390b-623e-4112-808b-a4003ed98510"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "height",
+              "ap1ID": "cb085d67-c774-483e-a29a-659fe0101d13",
+              "ap2ID": "0dd43d50-b91d-41e0-881f-dccf2397f5b8"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "3e9e390b-623e-4112-808b-a4003ed98510",
+              "ap2ID": "5200d791-1da5-492f-8e83-b333f90e21e5"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "5200d791-1da5-492f-8e83-b333f90e21e5",
+              "ap2ID": "cf63cb59-8a3f-447d-92a7-b07043923af5"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2025-09-19T15:47:14.715Z",
+            "privateRepo": false,
+            "repoName": "2x6-in-MM",
+            "dateCreated": "2025-09-14T17:15:39Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "99706c20-dcce-4419-a870-8b362b255f60",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/2x6-in-MM",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739508",
+            "ranking": 0,
+            "searchField": "2x6-in-mm barboursmith a 2x6 board modeled in mm ",
+            "owner": "BarbourSmith",
+            "description": "A 2x6 board modeled in mm",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1,
+          "compiledBom": [
+            {
+              "BOMitemName": "name",
+              "numberNeeded": 1,
+              "costUSD": 0,
+              "source": "www.example.com"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "number or geometry",
+          "ap1ID": "03d74bd9-693a-48c4-ae3b-3aecb45bb6b5",
+          "ap2ID": "c3b6ebae-7096-43e3-a5c3-10bc3754458e"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": [
+        {
+          "BOMitemName": "name",
+          "numberNeeded": 1,
+          "costUSD": 0,
+          "source": "www.example.com"
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "name": "A Test Molecule",
+      "x": 0.22420634920634921,
+      "y": 0.520891364902507,
+      "uniqueID": "fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "0e6ca2a5-80dd-46b8-b4bb-17305878610a",
+          "ioValues": []
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "name": "2x6 in MM",
+          "x": 0.30026455026455023,
+          "y": 0.5459610027855153,
+          "uniqueID": "191cbe80-adec-4760-b154-cf71388e82cb",
+          "ioValues": [
+            {
+              "name": "Input (1)",
+              "ioValue": 762,
+              "currentEquation": "30*25.4"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.9784431137724551,
+              "y": 0.4640371229698376,
+              "uniqueID": "716ccf14-3337-4512-bc66-56e2d9c2c896",
+              "ioValues": []
+            },
+            {
+              "atomType": "Rectangle",
+              "name": "Rectangle",
+              "x": 0.10178117048346057,
+              "y": 0.26631853785900783,
+              "uniqueID": "575b095a-1a5f-42e0-864b-75d27aff5905",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 38.099999999999994,
+                  "currentEquation": "1.5*25.4"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 139.7,
+                  "currentEquation": "5.5*25.4"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "name": "Extrude",
+              "x": 0.37404580152671757,
+              "y": 0.30548302872062666,
+              "uniqueID": "c287b3dc-5c39-4174-8893-a5d62b8653d9",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 762
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "name": "Input (1)",
+              "x": 0.029699999999999997,
+              "y": 0.4830287206266318,
+              "uniqueID": "c75b8d58-1d5a-49fc-93a6-9740628af14f",
+              "ioValues": [],
+              "type": "number"
+            },
+            {
+              "atomType": "Rotate",
+              "name": "Rotate",
+              "x": 0.5215568862275449,
+              "y": 0.3619489559164733,
+              "uniqueID": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55",
+              "ioValues": [
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "name": "Add BOM Tag",
+              "x": 0.6952095808383233,
+              "y": 0.5777262180974478,
+              "uniqueID": "ab77f107-c770-4247-b6d3-390caed78b95",
+              "ioValues": [
+                {
+                  "name": "Item Name",
+                  "ioValue": "New Item"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": ""
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              }
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "575b095a-1a5f-42e0-864b-75d27aff5905",
+              "ap2ID": "c287b3dc-5c39-4174-8893-a5d62b8653d9"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "c287b3dc-5c39-4174-8893-a5d62b8653d9",
+              "ap2ID": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "height",
+              "ap1ID": "c75b8d58-1d5a-49fc-93a6-9740628af14f",
+              "ap2ID": "c287b3dc-5c39-4174-8893-a5d62b8653d9"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "a9c27801-f5e3-4ee7-b3b4-8b5a7da31d55",
+              "ap2ID": "ab77f107-c770-4247-b6d3-390caed78b95"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "ab77f107-c770-4247-b6d3-390caed78b95",
+              "ap2ID": "716ccf14-3337-4512-bc66-56e2d9c2c896"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2025-09-19T15:47:14.715Z",
+            "privateRepo": false,
+            "repoName": "2x6-in-MM",
+            "dateCreated": "2025-09-14T17:15:39Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "99706c20-dcce-4419-a870-8b362b255f60",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/2x6-in-MM",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739508",
+            "ranking": 0,
+            "searchField": "2x6-in-mm barboursmith a 2x6 board modeled in mm ",
+            "owner": "BarbourSmith",
+            "description": "A 2x6 board modeled in mm",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1,
+          "compiledBom": [
+            {
+              "BOMitemName": "name",
+              "numberNeeded": 1,
+              "costUSD": 0,
+              "source": "www.example.com"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "number or geometry",
+          "ap1ID": "191cbe80-adec-4760-b154-cf71388e82cb",
+          "ap2ID": "0e6ca2a5-80dd-46b8-b4bb-17305878610a"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": [
+        {
+          "BOMitemName": "name",
+          "numberNeeded": 1,
+          "costUSD": 0,
+          "source": "www.example.com"
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "name": "A Test Molecule",
+      "x": 0.22883597883597884,
+      "y": 0.8746518105849581,
+      "uniqueID": "d438c782-33b9-47bf-9cdf-0b670eccd6ad",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "5a4e861a-8d1b-483a-b2c4-10c3d3c7b317",
+          "ioValues": []
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "name": "2x6 in MM",
+          "x": 0.3029100529100529,
+          "y": 0.5571030640668524,
+          "uniqueID": "b2e93d31-4994-488c-aa15-788b267b5324",
+          "ioValues": [
+            {
+              "name": "Input (1)",
+              "ioValue": 2286,
+              "currentEquation": "90*25.4"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "name": "Output",
+              "x": 0.9784431137724551,
+              "y": 0.4640371229698376,
+              "uniqueID": "8146df5e-d403-4ada-a07d-fc343409d980",
+              "ioValues": []
+            },
+            {
+              "atomType": "Rectangle",
+              "name": "Rectangle",
+              "x": 0.10178117048346057,
+              "y": 0.26631853785900783,
+              "uniqueID": "a6c5fff4-1961-41f9-9849-fdcb82b48c87",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 38.099999999999994,
+                  "currentEquation": "1.5*25.4"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 139.7,
+                  "currentEquation": "5.5*25.4"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "name": "Extrude",
+              "x": 0.37404580152671757,
+              "y": 0.30548302872062666,
+              "uniqueID": "db87a2ef-4a83-4f81-846f-8a972d854eb7",
+              "ioValues": [
+                {
+                  "name": "height",
+                  "ioValue": 2286
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "name": "Input (1)",
+              "x": 0.029699999999999997,
+              "y": 0.4830287206266318,
+              "uniqueID": "1acb3b09-63e2-4360-9851-efb3065d7043",
+              "ioValues": [],
+              "type": "number"
+            },
+            {
+              "atomType": "Rotate",
+              "name": "Rotate",
+              "x": 0.5215568862275449,
+              "y": 0.3619489559164733,
+              "uniqueID": "01252a67-4ded-49c4-b887-561eb3f4753e",
+              "ioValues": [
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "name": "Add BOM Tag",
+              "x": 0.6952095808383233,
+              "y": 0.5777262180974478,
+              "uniqueID": "578311f4-c278-4eff-9594-37fdb8a40b5b",
+              "ioValues": [
+                {
+                  "name": "Item Name",
+                  "ioValue": "New Item"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": ""
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+              }
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "a6c5fff4-1961-41f9-9849-fdcb82b48c87",
+              "ap2ID": "db87a2ef-4a83-4f81-846f-8a972d854eb7"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "db87a2ef-4a83-4f81-846f-8a972d854eb7",
+              "ap2ID": "01252a67-4ded-49c4-b887-561eb3f4753e"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "height",
+              "ap1ID": "1acb3b09-63e2-4360-9851-efb3065d7043",
+              "ap2ID": "db87a2ef-4a83-4f81-846f-8a972d854eb7"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "geometry",
+              "ap1ID": "01252a67-4ded-49c4-b887-561eb3f4753e",
+              "ap2ID": "578311f4-c278-4eff-9594-37fdb8a40b5b"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "578311f4-c278-4eff-9594-37fdb8a40b5b",
+              "ap2ID": "8146df5e-d403-4ada-a07d-fc343409d980"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2025-09-19T15:47:14.715Z",
+            "privateRepo": false,
+            "repoName": "2x6-in-MM",
+            "dateCreated": "2025-09-14T17:15:39Z",
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/README.md?sanitize=true",
+            "yyyy": 2025,
+            "topMoleculeID": "99706c20-dcce-4419-a870-8b362b255f60",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/2x6-in-MM",
+            "topics": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739508",
+            "ranking": 0,
+            "searchField": "2x6-in-mm barboursmith a 2x6 board modeled in mm ",
+            "owner": "BarbourSmith",
+            "description": "A 2x6 board modeled in mm",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/2x6-in-MM/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1,
+          "compiledBom": [
+            {
+              "BOMitemName": "name",
+              "numberNeeded": 1,
+              "costUSD": 0,
+              "source": "www.example.com"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "number or geometry",
+          "ap1ID": "b2e93d31-4994-488c-aa15-788b267b5324",
+          "ap2ID": "5a4e861a-8d1b-483a-b2c4-10c3d3c7b317"
+        }
+      ],
+      "fileTypeVersion": 1,
+      "compiledBom": [
+        {
+          "BOMitemName": "name",
+          "numberNeeded": 1,
+          "costUSD": 0,
+          "source": "www.example.com"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "fcbee009-7b54-42c7-97c5-192fa5becb62",
+      "ap2ID": 1720547275110
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 2",
+      "ap1ID": "64ea2c8d-bf4c-473a-acbc-68ee4d02c248",
+      "ap2ID": "fcbee009-7b54-42c7-97c5-192fa5becb62"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 3",
+      "ap1ID": "89477b96-df08-449c-a343-1932329ffae1",
+      "ap2ID": "fcbee009-7b54-42c7-97c5-192fa5becb62"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "cacb3ae8-5670-43f3-8a76-39be00d493dc",
+      "ap2ID": "3fe79a2d-b8fc-4df4-b699-2cdb664a2ee6"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "3fe79a2d-b8fc-4df4-b699-2cdb664a2ee6",
+      "ap2ID": "89d5538d-9277-425e-b96f-e6592a125b69"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "89d5538d-9277-425e-b96f-e6592a125b69",
+      "ap2ID": "9b3e583e-a1c1-4825-b899-a27fa37fcf0f"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "Shape 1",
+      "ap1ID": "17ff2815-1952-4728-bf33-a9605d1bdbcd",
+      "ap2ID": "fcbee009-7b54-42c7-97c5-192fa5becb62"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "fa8b815b-4fd7-46c2-8c3d-7660cfb0dc8e",
+      "ap2ID": "64ea2c8d-bf4c-473a-acbc-68ee4d02c248"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "d438c782-33b9-47bf-9cdf-0b670eccd6ad",
+      "ap2ID": "89477b96-df08-449c-a343-1932329ffae1"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": [
+    {
+      "BOMitemName": "name",
+      "numberNeeded": 3,
+      "costUSD": 0,
+      "source": "www.example.com"
+    }
+  ],
+  "filetypeVersion": 1
+}
